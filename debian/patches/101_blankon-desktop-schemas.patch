@@ -1,0 +1,74 @@
+diff -Naur gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in gsettings-desktop-schemas-3.12.0/schemas/org.gnome.desktop.background.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in	2013-04-17 16:01:52.000000000 +0700
++++ gsettings-desktop-schemas-3.12.0/schemas/org.gnome.desktop.background.gschema.xml.in.in	2014-04-03 22:13:02.833593139 +0700
+@@ -10,7 +10,7 @@
+       </_description>
+     </key>
+     <key name="picture-uri" type="s">
+-      <default>'file://@datadir@/themes/Adwaita/backgrounds/adwaita-timed.xml'</default>
++      <default>'file://@datadir@/gnome-background-properties/blankon-wallpapers.xml'</default>
+       <_summary>Picture URI</_summary>
+       <_description>
+         URI to use for the background image. Note that the backend only supports
+diff -Naur gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.desktop.interface.gschema.xml.in.in gsettings-desktop-schemas-3.12.0/schemas/org.gnome.desktop.interface.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.desktop.interface.gschema.xml.in.in	2013-08-12 21:41:25.000000000 +0700
++++ gsettings-desktop-schemas-3.12.0/schemas/org.gnome.desktop.interface.gschema.xml.in.in	2014-04-03 22:08:58.277534072 +0700
+@@ -8,7 +8,7 @@
+       </_description>
+     </key>
+     <key name="enable-animations" type="b">
+-      <default>true</default>
++      <default>false</default>
+       <_summary>Enable Animations</_summary>
+       <_description>
+         Whether animations should be displayed. Note: This is a global key,
+@@ -83,14 +83,14 @@
+       </_description>
+     </key>
+     <key name="icon-theme" type="s">
+-      <default>'gnome'</default>
++      <default>'Komodo'</default>
+       <_summary>Icon Theme</_summary>
+       <_description>
+         Icon theme to use for the panel, nautilus etc.
+       </_description>
+     </key>
+     <key name="gtk-theme" type="s">
+-      <default>'Adwaita'</default>
++      <default>'Manokwari'</default>
+       <_summary>Gtk+ Theme</_summary>
+       <_description>
+         Basename of the default theme used by gtk+.
+@@ -170,7 +170,7 @@
+       </_description>
+     </key>
+     <key name="cursor-theme" type="s">
+-      <default>'Adwaita'</default>
++      <default>'DMZ-White'</default>
+       <_summary>Cursor theme</_summary>
+       <_description>Cursor theme name. Used only by Xservers that support the Xcursor extension.</_description>
+     </key>
+diff -Naur gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.desktop.sound.gschema.xml.in.in gsettings-desktop-schemas-3.12.0/schemas/org.gnome.desktop.sound.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.desktop.sound.gschema.xml.in.in	2012-04-13 02:27:54.000000000 +0700
++++ gsettings-desktop-schemas-3.12.0/schemas/org.gnome.desktop.sound.gschema.xml.in.in	2014-04-03 22:05:08.201662417 +0700
+@@ -7,7 +7,7 @@
+       <_description>Whether to play sounds on user events.</_description>
+     </key>
+     <key name="theme-name" type="s">
+-      <default>'freedesktop'</default>
++      <default>'blankon'</default>
+       <_summary>Sound theme name</_summary>
+       <_description>The XDG sound theme to use for event sounds.</_description>
+     </key>
+diff -Naur gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.system.locale.gschema.xml.in.in gsettings-desktop-schemas-3.12.0/schemas/org.gnome.system.locale.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.system.locale.gschema.xml.in.in	2012-04-13 02:27:54.000000000 +0700
++++ gsettings-desktop-schemas-3.12.0/schemas/org.gnome.system.locale.gschema.xml.in.in	2014-04-03 22:17:11.201680102 +0700
+@@ -1,7 +1,7 @@
+ <schemalist gettext-domain="gsettings-desktop-schemas">
+   <schema id="org.gnome.system.locale" path="/system/locale/">
+     <key name="region" type="s">
+-      <default>''</default>
++      <default>'id_ID.utf8'</default>
+       <_summary>The locale to use for dates / numbers formats</_summary>
+       <_description>
+ 	Specify the locale to be used for displaying dates, times and numbers formats.
