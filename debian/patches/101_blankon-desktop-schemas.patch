@@ -60,15 +60,4 @@ diff -Naur gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.desktop.sound
        <_summary>Sound theme name</_summary>
        <_description>The XDG sound theme to use for event sounds.</_description>
      </key>
-diff -Naur gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.system.locale.gschema.xml.in.in gsettings-desktop-schemas-3.12.0/schemas/org.gnome.system.locale.gschema.xml.in.in
---- gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.system.locale.gschema.xml.in.in	2012-04-13 02:27:54.000000000 +0700
-+++ gsettings-desktop-schemas-3.12.0/schemas/org.gnome.system.locale.gschema.xml.in.in	2014-04-03 22:17:11.201680102 +0700
-@@ -1,7 +1,7 @@
- <schemalist gettext-domain="gsettings-desktop-schemas">
-   <schema id="org.gnome.system.locale" path="/system/locale/">
-     <key name="region" type="s">
--      <default>''</default>
-+      <default>'id_ID.utf8'</default>
-       <_summary>The locale to use for dates / numbers formats</_summary>
-       <_description>
- 	Specify the locale to be used for displaying dates, times and numbers formats.
+

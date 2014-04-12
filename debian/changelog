@@ -1,3 +1,10 @@
+gsettings-desktop-schemas (3.12.0-1blankon4) tambora; urgency=medium
+
+  * Changes debian/patches
+    - 101_blankon-desktop-schemas.patch
+
+ -- Syai Mif <syai.unipdu@gmail.com>  Sat, 12 Apr 2014 11:49:52 +0700
+
 gsettings-desktop-schemas (3.12.0-1blankon3) tambora; urgency=medium
 
   * debian/patch:
