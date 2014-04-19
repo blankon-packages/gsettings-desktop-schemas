@@ -60,4 +60,15 @@ diff -Naur gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.desktop.sound
        <_summary>Sound theme name</_summary>
        <_description>The XDG sound theme to use for event sounds.</_description>
      </key>
-
+diff -Naur gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in gsettings-desktop-schemas-3.12.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.12.0.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2013-08-12 21:41:25.000000000 +0700
++++ gsettings-desktop-schemas-3.12.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2014-04-19 23:00:27.684212442 +0700
+@@ -188,7 +188,7 @@
+       </_description>
+     </key>
+     <key name="theme" type="s">
+-      <default>'Adwaita'</default>
++      <default>'Manokwari'</default>
+       <_summary>Current theme</_summary>
+       <_description>
+         The theme determines the appearance of window borders, titlebar,
