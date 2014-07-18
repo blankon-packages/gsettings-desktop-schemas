@@ -1,35 +1,18 @@
-gsettings-desktop-schemas (3.12.0-1blankon5) tambora; urgency=medium
-
-  * changes debian/patch
-    - 101_blankon-desktop-schemas.patch
-
- -- Azis Ws <azis.astrojim@surabaya.di.blankon.in>  Sat, 19 Apr 2014 23:08:14 +0700
-
-gsettings-desktop-schemas (3.12.0-1blankon4) tambora; urgency=medium
-
-  * Changes debian/patches
-    - 101_blankon-desktop-schemas.patch
-
- -- Syai Mif <syai.unipdu@gmail.com>  Sat, 12 Apr 2014 11:49:52 +0700
-
-gsettings-desktop-schemas (3.12.0-1blankon3) tambora; urgency=medium
-
-  * debian/patch:
-    - 101_blankon-desktop-schemas.patch
-
- -- Azis Ws <mijortsa@icik2ehem.com>  Fri, 04 Apr 2014 20:36:58 +0700
-
-gsettings-desktop-schemas (3.12.0-1blankon2) tambora; urgency=low
-
-  * Bump version glib2.0
-
- -- Mahyuddin Ramli <yudi.al@gmail.com>  Fri, 28 Mar 2014 22:10:10 +0700
-
-gsettings-desktop-schemas (3.12.0-1blankon1) tambora; urgency=medium
+gsettings-desktop-schemas (3.12.2-1blankon1) tambora; urgency=medium
 
   * New upstream release
 
- -- Azis Ws <mijortsa@localhost>  Wed, 26 Mar 2014 14:16:40 +0700
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 18 Jul 2014 18:35:16 +0700
+
+gsettings-desktop-schemas (3.12.2-1) unstable; urgency=medium
+
+  * Fix typo in package description (Closes: #746315)
+    - thanks Anders Jonsson
+  * New upstream release.
+  * Bump Standards-Version to 3.9.5
+  * Upload to unstable.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Mon, 14 Jul 2014 23:26:58 +0200
 
 gsettings-desktop-schemas (3.12.0-1) experimental; urgency=medium
 
