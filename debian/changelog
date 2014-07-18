@@ -1,3 +1,9 @@
+gsettings-desktop-schemas (3.12.2-1blankon2) tambora; urgency=medium
+
+  * Added 101_blankon-desktop-schemas.patch
+
+ -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 19 Jul 2014 01:10:51 +0700
+
 gsettings-desktop-schemas (3.12.2-1blankon1) tambora; urgency=medium
 
   * New upstream release
