@@ -2,12 +2,12 @@
 # 
 # Modifications should be made to debian/control.in instead.
 # This file is regenerated automatically in the clean target.
-
 Source: gsettings-desktop-schemas
 Section: gnome
 Priority: optional
-Maintainer: BlankOn Developers <BlankOn-Dev@googlegroups.com>
-Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Josselin Mouette <joss@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
+XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Andreas Henriksson <andreas@fatal.se>, Emilio Pozuelo Monfort <pochu@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
 Build-depends: debhelper (>= 8),
                cdbs,
                gnome-pkg-tools (>= 0.11),
