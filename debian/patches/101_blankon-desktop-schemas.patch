@@ -1,6 +1,6 @@
-diff -Naur gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in gsettings-desktop-schemas-3.12.2/schemas/org.gnome.desktop.background.gschema.xml.in.in
---- gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in	2013-04-17 16:01:52.000000000 +0700
-+++ gsettings-desktop-schemas-3.12.2/schemas/org.gnome.desktop.background.gschema.xml.in.in	2014-07-19 00:24:25.503379443 +0700
+diff -Naur gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.background.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in	2014-09-22 22:09:11.000000000 +0700
++++ gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.background.gschema.xml.in.in	2014-09-24 02:23:41.010736874 +0700
 @@ -1,7 +1,7 @@
  <schemalist gettext-domain="gsettings-desktop-schemas">
    <schema id="org.gnome.desktop.background" path="/org/gnome/desktop/background/">
@@ -14,20 +14,20 @@ diff -Naur gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.backg
        </_description>
      </key>
      <key name="picture-uri" type="s">
--      <default>'file://@datadir@/themes/Adwaita/backgrounds/adwaita-timed.xml'</default>
+-      <default>'file://@datadir@/backgrounds/gnome/adwaita-timed.xml'</default>
 +      <default>'file://@datadir@/gnome-background-properties/blankon-wallpapers.xml'</default>
        <_summary>Picture URI</_summary>
        <_description>
          URI to use for the background image. Note that the backend only supports
-diff -Naur gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.interface.gschema.xml.in.in gsettings-desktop-schemas-3.12.2/schemas/org.gnome.desktop.interface.gschema.xml.in.in
---- gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.interface.gschema.xml.in.in	2013-08-12 21:41:25.000000000 +0700
-+++ gsettings-desktop-schemas-3.12.2/schemas/org.gnome.desktop.interface.gschema.xml.in.in	2014-07-19 00:07:47.974802040 +0700
+diff -Naur gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.interface.gschema.xml.in.in gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.interface.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.interface.gschema.xml.in.in	2014-09-22 22:09:11.000000000 +0700
++++ gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.interface.gschema.xml.in.in	2014-09-24 02:30:45.783307624 +0700
 @@ -83,14 +83,14 @@
        </_description>
      </key>
      <key name="icon-theme" type="s">
--      <default>'gnome'</default>
-+      <default>'Tebu'</default>
+-      <default>'Adwaita'</default>
++      <default>'Komodo'</default>
        <_summary>Icon Theme</_summary>
        <_description>
          Icon theme to use for the panel, nautilus etc.
@@ -74,9 +74,9 @@ diff -Naur gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.inter
        <_summary>Cursor theme</_summary>
        <_description>Cursor theme name. Used only by Xservers that support the Xcursor extension.</_description>
      </key>
-diff -Naur gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.sound.gschema.xml.in.in gsettings-desktop-schemas-3.12.2/schemas/org.gnome.desktop.sound.gschema.xml.in.in
---- gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.sound.gschema.xml.in.in	2012-04-13 02:27:54.000000000 +0700
-+++ gsettings-desktop-schemas-3.12.2/schemas/org.gnome.desktop.sound.gschema.xml.in.in	2014-07-19 00:11:23.790243096 +0700
+diff -Naur gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.sound.gschema.xml.in.in gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.sound.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.sound.gschema.xml.in.in	2011-09-18 01:09:33.000000000 +0700
++++ gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.sound.gschema.xml.in.in	2014-09-24 02:28:02.474565196 +0700
 @@ -7,7 +7,7 @@
        <_description>Whether to play sounds on user events.</_description>
      </key>
@@ -86,9 +86,9 @@ diff -Naur gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.sound
        <_summary>Sound theme name</_summary>
        <_description>The XDG sound theme to use for event sounds.</_description>
      </key>
-diff -Naur gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in gsettings-desktop-schemas-3.12.2/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in
---- gsettings-desktop-schemas-3.12.2.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2013-08-12 21:41:25.000000000 +0700
-+++ gsettings-desktop-schemas-3.12.2/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2014-07-19 00:05:56.697501436 +0700
+diff -Naur gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in
+--- gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2014-09-22 22:09:11.000000000 +0700
++++ gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2014-09-24 02:29:39.770959522 +0700
 @@ -188,7 +188,7 @@
        </_description>
      </key>
