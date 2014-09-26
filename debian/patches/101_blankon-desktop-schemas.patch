@@ -88,7 +88,16 @@ diff -Naur gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.sound
      </key>
 diff -Naur gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in
 --- gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2014-09-22 22:09:11.000000000 +0700
-+++ gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2014-09-24 02:29:39.770959522 +0700
++++ gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2014-09-26 12:42:14.777932506 +0700
+@@ -25,7 +25,7 @@
+        </_description>
+     </key>
+     <key name="button-layout" type="s">
+-      <default>'appmenu:close'</default>
++      <default>':minimize,maximize,close'</default>
+       <_summary>Arrangement of buttons on the titlebar</_summary>
+       <_description>
+         Arrangement of buttons on the titlebar. The value should be a string,
 @@ -188,7 +188,7 @@
        </_description>
      </key>
