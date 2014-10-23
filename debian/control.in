@@ -2,7 +2,6 @@ Source: gsettings-desktop-schemas
 Section: gnome
 Priority: optional
 Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
-XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
 Uploaders: @GNOME_TEAM@
 Build-depends: debhelper (>= 8),
                cdbs,

@@ -1,14 +1,15 @@
-gsettings-desktop-schemas (3.14.0-1blankon2) tambora; urgency=medium
+gsettings-desktop-schemas (3.14.1-1blankon1) tambora; urgency=medium
 
-  * patch button menu
+  * upstream release
+  * debian/patchs 101_blankon-desktop-schemas.patch
 
- -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 26 Sep 2014 12:44:14 +0700
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 23 Oct 2014 10:21:46 +0700
 
-gsettings-desktop-schemas (3.14.0-1blankon1) tambora; urgency=low
+gsettings-desktop-schemas (3.14.1-1) unstable; urgency=medium
 
   * New upstream release
 
- -- Mahyuddin <yudi.al@gmail.com>  Tue, 23 Sep 2014 22:53:04 +0700
+ -- Sjoerd Simons <sjoerd@debian.org>  Sun, 19 Oct 2014 17:39:25 +0200
 
 gsettings-desktop-schemas (3.14.0-1) unstable; urgency=medium
 
@@ -33,18 +34,6 @@ gsettings-desktop-schemas (3.13.2-1) experimental; urgency=medium
   * New upstream development release.
 
  -- Andreas Henriksson <andreas@fatal.se>  Sat, 02 Aug 2014 16:50:43 +0200
-
-gsettings-desktop-schemas (3.12.2-1blankon2) tambora; urgency=medium
-
-  * Added 101_blankon-desktop-schemas.patch
-
- -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Sat, 19 Jul 2014 01:10:51 +0700
-
-gsettings-desktop-schemas (3.12.2-1blankon1) tambora; urgency=medium
-
-  * New upstream release
-
- -- mijortsa <azis.astrojim@surabaya.di.blankon.in>  Fri, 18 Jul 2014 18:35:16 +0700
 
 gsettings-desktop-schemas (3.12.2-1) unstable; urgency=medium
 
