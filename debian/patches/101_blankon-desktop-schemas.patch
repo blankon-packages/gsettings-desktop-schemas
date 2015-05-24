@@ -1,118 +1,118 @@
-diff -Naur gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.background.gschema.xml.in.in
---- gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.background.gschema.xml.in.in	2014-09-22 22:09:11.000000000 +0700
-+++ gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.background.gschema.xml.in.in	2014-09-24 02:23:41.010736874 +0700
+diff -Naur gsettings-desktop-schemas-3.16.1.orig/schemas/org.gnome.desktop.background.gschema.xml.in gsettings-desktop-schemas-3.16.1/schemas/org.gnome.desktop.background.gschema.xml.in
+--- gsettings-desktop-schemas-3.16.1.orig/schemas/org.gnome.desktop.background.gschema.xml.in	2015-05-25 00:45:25.131879973 +0700
++++ gsettings-desktop-schemas-3.16.1/schemas/org.gnome.desktop.background.gschema.xml.in	2015-05-25 00:52:00.071862365 +0700
 @@ -1,7 +1,7 @@
  <schemalist gettext-domain="gsettings-desktop-schemas">
    <schema id="org.gnome.desktop.background" path="/org/gnome/desktop/background/">
      <key name="picture-options" enum="org.gnome.desktop.GDesktopBackgroundStyle">
 -      <default>'zoom'</default>
 +      <default>'stretched'</default>
-       <_summary>Picture Options</_summary>
-       <_description>
+       <summary>Picture Options</summary>
+       <description>
          Determines how the image set by wallpaper_filename is rendered.
 @@ -10,7 +10,7 @@
-       </_description>
+       </description>
      </key>
      <key name="picture-uri" type="s">
 -      <default>'file://@datadir@/backgrounds/gnome/adwaita-timed.xml'</default>
 +      <default>'file://@datadir@/gnome-background-properties/blankon-wallpapers.xml'</default>
-       <_summary>Picture URI</_summary>
-       <_description>
+       <summary>Picture URI</summary>
+       <description>
          URI to use for the background image. Note that the backend only supports
-diff -Naur gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.interface.gschema.xml.in.in gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.interface.gschema.xml.in.in
---- gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.interface.gschema.xml.in.in	2014-09-22 22:09:11.000000000 +0700
-+++ gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.interface.gschema.xml.in.in	2014-09-24 02:30:45.783307624 +0700
+diff -Naur gsettings-desktop-schemas-3.16.1.orig/schemas/org.gnome.desktop.interface.gschema.xml.in gsettings-desktop-schemas-3.16.1/schemas/org.gnome.desktop.interface.gschema.xml.in
+--- gsettings-desktop-schemas-3.16.1.orig/schemas/org.gnome.desktop.interface.gschema.xml.in	2015-05-25 00:45:25.131879973 +0700
++++ gsettings-desktop-schemas-3.16.1/schemas/org.gnome.desktop.interface.gschema.xml.in	2015-05-25 00:55:03.111854204 +0700
 @@ -83,14 +83,14 @@
-       </_description>
+       </description>
      </key>
      <key name="icon-theme" type="s">
 -      <default>'Adwaita'</default>
 +      <default>'Tebu'</default>
-       <_summary>Icon Theme</_summary>
-       <_description>
+       <summary>Icon Theme</summary>
+       <description>
          Icon theme to use for the panel, nautilus etc.
-       </_description>
+       </description>
      </key>
      <key name="gtk-theme" type="s">
 -      <default>'Adwaita'</default>
 +      <default>'Manokwari'</default>
-       <_summary>Gtk+ Theme</_summary>
-       <_description>
+       <summary>Gtk+ Theme</summary>
+       <description>
          Basename of the default theme used by gtk+.
 @@ -104,7 +104,7 @@
-       </_description>
+       </description>
      </key>
      <key name="font-name" type="s">
 -      <default>'Cantarell 11'</default>
 +      <default>'Aurulent Sans 10'</default>
-       <_summary>Default font</_summary>
-       <_description>
+       <summary>Default font</summary>
+       <description>
          Name of the default font used by gtk+.
 @@ -148,14 +148,14 @@
-       </_description>
+       </description>
      </key>
      <key name="document-font-name" type="s">
 -      <default>'Sans 11'</default>
 +      <default>'Sans 10'</default>
-       <_summary>Document font</_summary>
-       <_description>
+       <summary>Document font</summary>
+       <description>
          Name of the default font used for reading documents.
-       </_description>
+       </description>
      </key>
      <key name="monospace-font-name" type="s">
 -      <default>'Monospace 11'</default>
 +      <default>'Monospace 10'</default>
-       <_summary>Monospace font</_summary>
-       <_description>
+       <summary>Monospace font</summary>
+       <description>
          Name of a monospaced (fixed-width) font for use in locations like
 @@ -170,7 +170,7 @@
-       </_description>
+       </description>
      </key>
      <key name="cursor-theme" type="s">
 -      <default>'Adwaita'</default>
 +      <default>'DMZ-White'</default>
-       <_summary>Cursor theme</_summary>
-       <_description>Cursor theme name. Used only by Xservers that support the Xcursor extension.</_description>
+       <summary>Cursor theme</summary>
+       <description>Cursor theme name. Used only by Xservers that support the Xcursor extension.</description>
      </key>
-diff -Naur gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.sound.gschema.xml.in.in gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.sound.gschema.xml.in.in
---- gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.sound.gschema.xml.in.in	2011-09-18 01:09:33.000000000 +0700
-+++ gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.sound.gschema.xml.in.in	2014-09-24 02:28:02.474565196 +0700
+diff -Naur gsettings-desktop-schemas-3.16.1.orig/schemas/org.gnome.desktop.sound.gschema.xml.in gsettings-desktop-schemas-3.16.1/schemas/org.gnome.desktop.sound.gschema.xml.in
+--- gsettings-desktop-schemas-3.16.1.orig/schemas/org.gnome.desktop.sound.gschema.xml.in	2015-05-25 00:45:25.131879973 +0700
++++ gsettings-desktop-schemas-3.16.1/schemas/org.gnome.desktop.sound.gschema.xml.in	2015-05-25 00:55:39.507852581 +0700
 @@ -7,7 +7,7 @@
-       <_description>Whether to play sounds on user events.</_description>
+       <description>Whether to play sounds on user events.</description>
      </key>
      <key name="theme-name" type="s">
 -      <default>'freedesktop'</default>
 +      <default>'blankon'</default>
-       <_summary>Sound theme name</_summary>
-       <_description>The XDG sound theme to use for event sounds.</_description>
+       <summary>Sound theme name</summary>
+       <description>The XDG sound theme to use for event sounds.</description>
      </key>
-diff -Naur gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in
---- gsettings-desktop-schemas-3.14.0.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2014-09-22 22:09:11.000000000 +0700
-+++ gsettings-desktop-schemas-3.14.0/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in.in	2014-09-26 12:42:14.777932506 +0700
+diff -Naur gsettings-desktop-schemas-3.16.1.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in gsettings-desktop-schemas-3.16.1/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in
+--- gsettings-desktop-schemas-3.16.1.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in	2015-05-25 00:45:25.131879973 +0700
++++ gsettings-desktop-schemas-3.16.1/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in	2015-05-25 00:58:01.603846246 +0700
 @@ -25,7 +25,7 @@
-        </_description>
+        </description>
      </key>
      <key name="button-layout" type="s">
 -      <default>'appmenu:close'</default>
 +      <default>':minimize,maximize,close'</default>
-       <_summary>Arrangement of buttons on the titlebar</_summary>
-       <_description>
+       <summary>Arrangement of buttons on the titlebar</summary>
+       <description>
          Arrangement of buttons on the titlebar. The value should be a string,
-@@ -188,7 +188,7 @@
-       </_description>
+@@ -174,7 +174,7 @@
+       </description>
      </key>
      <key name="theme" type="s">
 -      <default>'Adwaita'</default>
 +      <default>'Manokwari'</default>
-       <_summary>Current theme</_summary>
-       <_description>
+       <summary>Current theme</summary>
+       <description>
          The theme determines the appearance of window borders, titlebar,
-@@ -204,7 +204,7 @@
-       </_description>
+@@ -192,7 +192,7 @@
+       </description>
      </key>
      <key name="titlebar-font" type="s">
 -      <default>'Cantarell Bold 11'</default>
 +      <default>'Aurulent Sans Bold 10'</default>
-       <_summary>Window title font</_summary>
-       <_description>
+       <summary>Window title font</summary>
+       <description>
          A font description string describing a font for window titlebars.

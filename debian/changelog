@@ -1,6 +1,7 @@
 gsettings-desktop-schemas (3.16.1-1blankon1) tambora; urgency=low
 
   * New Upstream Release 
+  * Repatch 101_blankon-desktop-schemas.patch
 
  -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sun, 24 May 2015 23:22:48 +0700
 
