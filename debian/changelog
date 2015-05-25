@@ -1,3 +1,9 @@
+gsettings-desktop-schemas (3.16.1-1blankon2) tambora; urgency=medium
+
+  * Added gsettings-override 
+
+ -- Mahyuddin <yudi.al@gmail.com>  Mon, 25 May 2015 16:02:21 +0700
+
 gsettings-desktop-schemas (3.16.1-1blankon1) tambora; urgency=low
 
   * New Upstream Release 
