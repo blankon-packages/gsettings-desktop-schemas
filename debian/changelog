@@ -1,3 +1,11 @@
+gsettings-desktop-schemas (3.16.1-1blankon3) tambora; urgency=medium
+
+  * Drop debian/gsettings-override
+    - Script override move to
+    debian/gsettings-desktop-schemas.gsettings-override
+
+ -- Mahyuddin <yudi.al@gmail.com>  Mon, 25 May 2015 16:29:28 +0700
+
 gsettings-desktop-schemas (3.16.1-1blankon2) tambora; urgency=medium
 
   * Added gsettings-override 
