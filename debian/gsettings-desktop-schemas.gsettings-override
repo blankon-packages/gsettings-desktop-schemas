@@ -13,5 +13,5 @@ picture-uri='file:///usr/share/backgrounds/Tambora_3.png'
 [org.gnome.desktop.interface]
 icon-theme='Tebu'
 
-[gsettings set org.gnome.settings-daemon.plugins.cursor]
+[org.gnome.settings-daemon.plugins.cursor]
 active='false'
