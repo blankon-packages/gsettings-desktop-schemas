@@ -1,3 +1,10 @@
+gsettings-desktop-schemas (3.16.1-1blankon5) tambora; urgency=medium
+
+  * debian/gsettings-desktop-schemas.gsettings-override:
+    - remove cursor #
+
+ -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 27 May 2015 01:39:03 +0700
+
 gsettings-desktop-schemas (3.16.1-1blankon4) tambora; urgency=medium
 
   * debian/gsettings-desktop-schemas.gsettings-override:
