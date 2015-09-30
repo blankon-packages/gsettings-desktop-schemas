@@ -1,49 +1,15 @@
-gsettings-desktop-schemas (3.16.1-1blankon6.1) tambora; urgency=medium
+gsettings-desktop-schemas (3.18.0-1blankon1) tambora; urgency=medium
 
-  * Rebuild 
+  * New upstream release
+  * Merge with Debian unstable
 
- -- Rahman Yusri Aftian <aftian@di.blankon.in>  Tue, 18 Aug 2015 21:41:46 +0700
+ -- mhy <dotovr@mhy>  Wed, 30 Sep 2015 17:40:40 +0700
 
-gsettings-desktop-schemas (3.16.1-1blankon6) tambora; urgency=medium
+gsettings-desktop-schemas (3.18.0-1) unstable; urgency=medium
 
-  * Rebuild 
+  * New upstream release.
 
- -- Mahyuddin <yudi.al@gmail.com>  Tue, 18 Aug 2015 16:59:44 +0700
-
-gsettings-desktop-schemas (3.16.1-1blankon5) tambora; urgency=medium
-
-  * debian/gsettings-desktop-schemas.gsettings-override:
-    - remove cursor #
-
- -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Wed, 27 May 2015 01:39:03 +0700
-
-gsettings-desktop-schemas (3.16.1-1blankon4) tambora; urgency=medium
-
-  * debian/gsettings-desktop-schemas.gsettings-override:
-    - cursor make false
-
- -- Mahyuddin <yudi.al@gmail.com>  Tue, 26 May 2015 21:20:37 +0700
-
-gsettings-desktop-schemas (3.16.1-1blankon3) tambora; urgency=medium
-
-  * Drop debian/gsettings-override
-    - Script override move to
-    debian/gsettings-desktop-schemas.gsettings-override
-
- -- Mahyuddin <yudi.al@gmail.com>  Mon, 25 May 2015 16:29:28 +0700
-
-gsettings-desktop-schemas (3.16.1-1blankon2) tambora; urgency=medium
-
-  * Added gsettings-override 
-
- -- Mahyuddin <yudi.al@gmail.com>  Mon, 25 May 2015 16:02:21 +0700
-
-gsettings-desktop-schemas (3.16.1-1blankon1) tambora; urgency=low
-
-  * New Upstream Release 
-  * Repatch 101_blankon-desktop-schemas.patch
-
- -- Rahman Yusri Aftian <aftian@di.blankon.in>  Sun, 24 May 2015 23:22:48 +0700
+ -- Andreas Henriksson <andreas@fatal.se>  Tue, 22 Sep 2015 19:44:30 +0200
 
 gsettings-desktop-schemas (3.16.1-1) unstable; urgency=medium
 
@@ -54,19 +20,6 @@ gsettings-desktop-schemas (3.16.1-1) unstable; urgency=medium
   * Upload to unstable.
 
  -- Emilio Pozuelo Monfort <pochu@debian.org>  Fri, 22 May 2015 20:16:55 +0200
-
-gsettings-desktop-schemas (3.14.1-1blankon2) tambora; urgency=medium
-
-  * Change icons to Tebu 
-
- -- Mahyuddin <yudi.al@gmail.com>  Mon, 27 Apr 2015 22:01:16 +0700
-
-gsettings-desktop-schemas (3.14.1-1blankon1) tambora; urgency=medium
-
-  * upstream release
-  * debian/patchs 101_blankon-desktop-schemas.patch
-
- -- Mijortsa <azis.astrojim@surabaya.di.blankon.in>  Thu, 23 Oct 2014 10:21:46 +0700
 
 gsettings-desktop-schemas (3.14.1-1) unstable; urgency=medium
 
