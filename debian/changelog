@@ -1,3 +1,9 @@
+gsettings-desktop-schemas (3.18.1-1blankon1) tambora; urgency=medium
+
+  * New upstream relase
+
+ -- mhy <dotovr@mhy>  Mon, 26 Oct 2015 16:31:52 +0700
+
 gsettings-desktop-schemas (3.18.0-1blankon1) tambora; urgency=medium
 
   * New upstream release
