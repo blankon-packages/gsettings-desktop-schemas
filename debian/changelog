@@ -1,3 +1,45 @@
+gsettings-desktop-schemas (3.20.0-3blankon1) tambora; urgency=medium
+
+  * New upstream relase
+
+ -- Syai Mif <syaimif@di.blankon.in>  Mon, 06 Jun 2016 13:21:56 +0700
+
+gsettings-desktop-schemas (3.20.0-3) unstable; urgency=medium
+
+  * Fix the Breaks against gnome-control-center which requires an epoch.
+
+ -- Michael Biebl <biebl@debian.org>  Sun, 17 Apr 2016 13:31:53 +0200
+
+gsettings-desktop-schemas (3.20.0-2) unstable; urgency=medium
+
+  * Upload to unstable.
+
+ -- Michael Biebl <biebl@debian.org>  Sat, 16 Apr 2016 23:49:53 +0200
+
+gsettings-desktop-schemas (3.20.0-1) experimental; urgency=medium
+
+  * The "scroll-method" key was removed, update Breaks accordingly:
+    - Bump gnome-settings-daemon to << 3.19.92
+    - Add gnome-control-center (<< 3.19.92)
+    - Add mutter (<< 3.19.92),
+  * New upstream release.
+
+ -- Andreas Henriksson <andreas@fatal.se>  Fri, 25 Mar 2016 11:13:32 +0100
+
+gsettings-desktop-schemas (3.19.92-1) experimental; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.7
+
+ -- Andreas Henriksson <andreas@fatal.se>  Thu, 17 Mar 2016 10:49:30 +0100
+
+gsettings-desktop-schemas (3.18.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Bump Standards-Version to 3.9.6.
+
+ -- Michael Biebl <biebl@debian.org>  Wed, 21 Oct 2015 16:29:08 +0200
+
 gsettings-desktop-schemas (3.18.1-1blankon1) tambora; urgency=medium
 
   * New upstream relase
