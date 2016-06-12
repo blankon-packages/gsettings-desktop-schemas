@@ -1,3 +1,9 @@
+gsettings-desktop-schemas (3.20.0-3blankon3) tambora; urgency=medium
+
+  * Add Patch
+
+ -- Syai Mif <syaimif@di.blankon.in>  Sun, 12 Jun 2016 15:30:07 +0700
+
 gsettings-desktop-schemas (3.20.0-3blankon2) tambora; urgency=medium
 
   * Rebuild
