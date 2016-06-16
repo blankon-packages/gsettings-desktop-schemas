@@ -1,6 +1,6 @@
 [org.gnome.desktop.background]
 picture-options='stretched'
-picture-uri='file:///usr/share/backgrounds/contex/tambora.xml'
+picture-uri='file:///usr/share/backgrounds/Batik.png'
 
 [org.gnome.desktop.default-applications.terminal]
 exec='x-terminal-emulator'

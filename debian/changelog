@@ -1,3 +1,18 @@
+gsettings-desktop-schemas (3.20.0-3blankon5) tambora; urgency=medium
+
+  * Set default background 
+
+ -- dotovr <dotovr@preko>  Fri, 17 Jun 2016 03:53:56 +0700
+
+gsettings-desktop-schemas (3.20.0-3blankon4) tambora; urgency=medium
+
+  * Re-add patches:
+    - git_revert_background_key_removal.patch
+    - git_revert_menu_icon_key_removal.patch
+    - 100_blankon-desktop-schemas.patch
+
+ -- dotovr <dotovr@preko>  Thu, 16 Jun 2016 20:53:17 +0700
+
 gsettings-desktop-schemas (3.20.0-3blankon3) tambora; urgency=medium
 
   * Add Patch
