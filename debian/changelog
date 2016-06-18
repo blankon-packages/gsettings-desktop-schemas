@@ -1,3 +1,9 @@
+gsettings-desktop-schemas (3.20.0-3blankon6) tambora; urgency=medium
+
+  * Change theme to Adwaita
+
+ -- Syai Mif <syaimif@di.blankon.in>  Sat, 18 Jun 2016 20:43:18 +0700
+
 gsettings-desktop-schemas (3.20.0-3blankon5) tambora; urgency=medium
 
   * Set default background 
