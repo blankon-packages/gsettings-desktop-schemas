@@ -1,3 +1,9 @@
+gsettings-desktop-schemas (3.20.0-3blankon7) tambora; urgency=medium
+
+  * Change theme to Bromo
+
+ -- Syai Mif <syaimif@di.blankon.in>  Fri, 24 Jun 2016 18:22:47 +0700
+
 gsettings-desktop-schemas (3.20.0-3blankon6) tambora; urgency=medium
 
   * Change theme to Adwaita
