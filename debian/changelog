@@ -1,3 +1,9 @@
+gsettings-desktop-schemas (3.20.0-3blankon8) tambora; urgency=medium
+
+  * Change picture default to Mosaic
+
+ -- Syai Mif <syaimif@di.blankon.in>  Sat, 02 Jul 2016 04:08:31 +0700
+
 gsettings-desktop-schemas (3.20.0-3blankon7) tambora; urgency=medium
 
   * Change theme to Bromo
