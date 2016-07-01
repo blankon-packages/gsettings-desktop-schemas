@@ -1,3 +1,10 @@
+gsettings-desktop-schemas (3.20.0-3blankon9) tambora; urgency=medium
+
+  * Change default icon to Tebu-Flat
+  * Change lockscreen to mosaic
+
+ -- Syai Mif <syaimif@di.blankon.in>  Sat, 02 Jul 2016 06:30:39 +0700
+
 gsettings-desktop-schemas (3.20.0-3blankon8) tambora; urgency=medium
 
   * Change picture default to Mosaic

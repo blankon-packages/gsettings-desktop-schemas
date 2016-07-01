@@ -38,7 +38,7 @@ diff -Naur gsettings-desktop-schemas-3.20.0.orig/schemas/org.gnome.desktop.inter
      </key>
      <key name="icon-theme" type="s">
 -      <default>'Adwaita'</default>
-+      <default>'Tebu'</default>
++      <default>'Tebu-Flat'</default>
        <summary>Icon Theme</summary>
        <description>
          Icon theme to use for the panel, nautilus etc.
