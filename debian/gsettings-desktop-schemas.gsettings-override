@@ -11,7 +11,7 @@ picture-options='zoom'
 picture-uri='file:///usr/share/backgrounds/Mosaic_1.png'
 
 [org.gnome.desktop.interface]
-icon-theme='Tebu_Flat'
+icon-theme='Tebu-Flat'
 
 #[org.gnome.settings-daemon.plugins.cursor]
 #active='false'
