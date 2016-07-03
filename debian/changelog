@@ -1,3 +1,9 @@
+gsettings-desktop-schemas (3.20.0-3blankon11) tambora; urgency=medium
+
+  * Add script for switch workspaces #198
+
+ -- Syai Mif <syaimif@di.blankon.in>  Sun, 03 Jul 2016 22:43:58 +0700
+
 gsettings-desktop-schemas (3.20.0-3blankon10) tambora; urgency=medium
 
   * Fix name icons theme
