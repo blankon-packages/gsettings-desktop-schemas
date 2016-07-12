@@ -1,0 +1,12 @@
+diff -Naur gsettings-desktop-schemas-3.20.0.orig/schemas/org.gnome.desktop.peripherals.gschema.xml.in gsettings-desktop-schemas-3.20.0/schemas/org.gnome.desktop.peripherals.gschema.xml.in
+--- gsettings-desktop-schemas-3.20.0.orig/schemas/org.gnome.desktop.peripherals.gschema.xml.in	2016-03-16 21:54:43.000000000 +0700
++++ gsettings-desktop-schemas-3.20.0/schemas/org.gnome.desktop.peripherals.gschema.xml.in	2016-07-12 12:43:35.565586613 +0700
+@@ -14,7 +14,7 @@
+       <description>When disabled, touchpads that only support edge scrolling (and not 2-finger scrolling) will have that feature disabled.</description>
+     </key>
+     <key name="tap-to-click" type="b">
+-      <default>false</default>
++      <default>true</default>
+       <summary>Enable mouse clicks with touchpad</summary>
+       <description>Set this to TRUE to be able to send mouse clicks by tapping on the touchpad.</description>
+     </key>
