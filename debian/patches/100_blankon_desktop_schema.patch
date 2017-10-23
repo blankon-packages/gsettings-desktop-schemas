@@ -1,0 +1,147 @@
+Description: <short summary of the patch>
+ Repatch for default size of wallpaper in blankon uluwatu.
+ .
+ gsettings-desktop-schemas (3.24.1-1blankon6) uluwatu; urgency=medium
+ .
+   * Change default size wallpaper
+Author: AnTo SamalonA <ansamsoftdev@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2017-10-23
+
+--- gsettings-desktop-schemas-3.24.1.orig/schemas/gsettings-desktop-schemas.convert
++++ gsettings-desktop-schemas-3.24.1/schemas/gsettings-desktop-schemas.convert
+@@ -3,6 +3,9 @@
+ # Disabled as we don't want to migrate the default background
+ # settings as we can't convert the picture filename
+ 
+++[org.gnome.desktop.background]
+++picture-uri = /desktop/gnome/background/picture_filename
++
+ # From org.gnome.desktop-media-handling.gschema.xml.in
+ [org.gnome.desktop.media-handling]
+ automount = /apps/nautilus/preferences/media_automount
+--- gsettings-desktop-schemas-3.24.1.orig/schemas/org.gnome.desktop.background.gschema.xml.in
++++ gsettings-desktop-schemas-3.24.1/schemas/org.gnome.desktop.background.gschema.xml.in
+@@ -1,7 +1,7 @@
+ <schemalist gettext-domain="gsettings-desktop-schemas">
+   <schema id="org.gnome.desktop.background" path="/org/gnome/desktop/background/">
+     <key name="picture-options" enum="org.gnome.desktop.GDesktopBackgroundStyle">
+-      <default>'zoom'</default>
++      <default>'stretched'</default>
+       <summary>Picture Options</summary>
+       <description>
+         Determines how the image set by wallpaper_filename is rendered.
+@@ -10,7 +10,7 @@
+       </description>
+     </key>
+     <key name="picture-uri" type="s">
+-      <default>'file://@datadir@/backgrounds/gnome/adwaita-timed.xml'</default>
++      <default>'file://@datadir@/gnome-background-properties/blankon-wallpapers.xml'</default>
+       <summary>Picture URI</summary>
+       <description>
+         URI to use for the background image. Note that the backend only supports
+--- gsettings-desktop-schemas-3.24.1.orig/schemas/org.gnome.desktop.interface.gschema.xml.in
++++ gsettings-desktop-schemas-3.24.1/schemas/org.gnome.desktop.interface.gschema.xml.in
+@@ -83,14 +83,14 @@
+       </description>
+     </key>
+     <key name="icon-theme" type="s">
+-      <default>'Adwaita'</default>
++      <default>'Tebu-Flat'</default>
+       <summary>Icon Theme</summary>
+       <description>
+         Icon theme to use for the panel, nautilus etc.
+       </description>
+     </key>
+     <key name="gtk-theme" type="s">
+-      <default>'Adwaita'</default>
++      <default>'Bromo'</default>
+       <summary>Gtk+ Theme</summary>
+       <description>
+         Basename of the default theme used by gtk+.
+@@ -104,7 +104,7 @@
+       </description>
+     </key>
+     <key name="font-name" type="s">
+-      <default>'Cantarell 11'</default>
++      <default>'Aurulent Sans 10'</default>
+       <summary>Default font</summary>
+       <description>
+         Name of the default font used by gtk+.
+@@ -148,14 +148,14 @@
+       </description>
+     </key>
+     <key name="document-font-name" type="s">
+-      <default>'Sans 11'</default>
++      <default>'Sans 10'</default>
+       <summary>Document font</summary>
+       <description>
+         Name of the default font used for reading documents.
+       </description>
+     </key>
+     <key name="monospace-font-name" type="s">
+-      <default>'Monospace 11'</default>
++      <default>'Monospace 10'</default>
+       <summary>Monospace font</summary>
+       <description>
+         Name of a monospaced (fixed-width) font for use in locations like
+@@ -170,7 +170,7 @@
+       </description>
+     </key>
+     <key name="cursor-theme" type="s">
+-      <default>'Adwaita'</default>
++      <default>'DMZ-White'</default>
+       <summary>Cursor theme</summary>
+       <description>Cursor theme name. Used only by Xservers that support the Xcursor extension.</description>
+     </key>
+--- gsettings-desktop-schemas-3.24.1.orig/schemas/org.gnome.desktop.sound.gschema.xml.in
++++ gsettings-desktop-schemas-3.24.1/schemas/org.gnome.desktop.sound.gschema.xml.in
+@@ -7,7 +7,7 @@
+       <description>Whether to play sounds on user events.</description>
+     </key>
+     <key name="theme-name" type="s">
+-      <default>'freedesktop'</default>
++      <default>'blankon'</default>
+       <summary>Sound theme name</summary>
+       <description>The XDG sound theme to use for event sounds.</description>
+     </key>
+--- gsettings-desktop-schemas-3.24.1.orig/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in
++++ gsettings-desktop-schemas-3.24.1/schemas/org.gnome.desktop.wm.preferences.gschema.xml.in
+@@ -25,7 +25,7 @@
+        </description>
+     </key>
+     <key name="button-layout" type="s">
+-      <default>'appmenu:close'</default>
++      <default>':minimize,maximize,close'</default>
+       <summary>Arrangement of buttons on the titlebar</summary>
+       <description>
+         Arrangement of buttons on the titlebar. The value should be a string,
+@@ -174,7 +174,7 @@
+       </description>
+     </key>
+     <key name="theme" type="s">
+-      <default>'Adwaita'</default>
++      <default>'Bromo'</default>
+       <summary>Current theme</summary>
+       <description>
+         The theme determines the appearance of window borders, titlebar,
+@@ -192,7 +192,7 @@
+       </description>
+     </key>
+     <key name="titlebar-font" type="s">
+-      <default>'Cantarell Bold 11'</default>
++      <default>'Aurulent Sans Bold 10'</default>
+       <summary>Window title font</summary>
+       <description>
+         A font description string describing a font for window titlebars.
