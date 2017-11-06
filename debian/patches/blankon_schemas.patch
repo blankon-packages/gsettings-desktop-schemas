@@ -1,9 +1,13 @@
 Description: <short summary of the patch>
- Repatch for default size of wallpaper in blankon uluwatu.
+ TODO: Put a short summary on the line above and replace this paragraph
+ with a longer explanation of this change. Complete the meta-information
+ with other relevant fields (see below for details). To make it easier, the
+ information below has been extracted from the changelog. Adjust it or drop
+ it.
  .
- gsettings-desktop-schemas (3.24.1-1blankon6) uluwatu; urgency=medium
+ gsettings-desktop-schemas (3.24.1-1blankon7) uluwatu; urgency=medium
  .
-   * Change default size wallpaper
+   * Repatch
 Author: AnTo SamalonA <ansamsoftdev@gmail.com>
 
 ---
@@ -17,31 +21,22 @@ Bug-Debian: https://bugs.debian.org/<bugnumber>
 Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
 Forwarded: <no|not-needed|url proving that it has been forwarded>
 Reviewed-By: <name and email of someone who approved the patch>
-Last-Update: 2017-10-23
+Last-Update: 2017-11-06
 
 --- gsettings-desktop-schemas-3.24.1.orig/schemas/gsettings-desktop-schemas.convert
 +++ gsettings-desktop-schemas-3.24.1/schemas/gsettings-desktop-schemas.convert
-@@ -3,6 +3,9 @@
- # Disabled as we don't want to migrate the default background
- # settings as we can't convert the picture filename
+@@ -12,6 +12,9 @@ autorun-x-content-start-app = /apps/naut
+ autorun-x-content-ignore = /apps/nautilus/preferences/media_autorun_x_content_ignore
+ autorun-x-content-open-folder = /apps/nautilus/preferences/media_autorun_x_content_open_folder
  
-++[org.gnome.desktop.background]
-++picture-uri = /desktop/gnome/background/picture_filename
++org.gnome.desktop.background]
++picture-uri = /desktop/gnome/background/picture_filename
 +
- # From org.gnome.desktop-media-handling.gschema.xml.in
- [org.gnome.desktop.media-handling]
- automount = /apps/nautilus/preferences/media_automount
+ # From org.gnome.desktop.default-applications.gschema.xml
+ [org.gnome.desktop.default-applications.office.calendar]
+ exec = /desktop/gnome/applications/calendar/exec
 --- gsettings-desktop-schemas-3.24.1.orig/schemas/org.gnome.desktop.background.gschema.xml.in
 +++ gsettings-desktop-schemas-3.24.1/schemas/org.gnome.desktop.background.gschema.xml.in
-@@ -1,7 +1,7 @@
- <schemalist gettext-domain="gsettings-desktop-schemas">
-   <schema id="org.gnome.desktop.background" path="/org/gnome/desktop/background/">
-     <key name="picture-options" enum="org.gnome.desktop.GDesktopBackgroundStyle">
--      <default>'zoom'</default>
-+      <default>'stretched'</default>
-       <summary>Picture Options</summary>
-       <description>
-         Determines how the image set by wallpaper_filename is rendered.
 @@ -10,7 +10,7 @@
        </description>
      </key>
@@ -105,6 +100,17 @@ Last-Update: 2017-10-23
        <summary>Cursor theme</summary>
        <description>Cursor theme name. Used only by Xservers that support the Xcursor extension.</description>
      </key>
+--- gsettings-desktop-schemas-3.24.1.orig/schemas/org.gnome.desktop.screensaver.gschema.xml.in
++++ gsettings-desktop-schemas-3.24.1/schemas/org.gnome.desktop.screensaver.gschema.xml.in
+@@ -94,7 +94,7 @@
+       </description>
+     </key>
+     <key name="picture-uri" type="s">
+-      <default>'file://@datadir@/backgrounds/gnome/adwaita-lock.jpg'</default>
++      <default>'file://@datadir@/backgrounds/uluwatu-inside-blankon-dark-blue.png'</default>
+       <summary>Picture URI</summary>
+       <description>
+         URI to use for the background image. Note that the backend only supports
 --- gsettings-desktop-schemas-3.24.1.orig/schemas/org.gnome.desktop.sound.gschema.xml.in
 +++ gsettings-desktop-schemas-3.24.1/schemas/org.gnome.desktop.sound.gschema.xml.in
 @@ -7,7 +7,7 @@

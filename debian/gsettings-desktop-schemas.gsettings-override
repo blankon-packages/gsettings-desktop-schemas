@@ -1,5 +1,5 @@
 [org.gnome.desktop.background]
-picture-options='stretched'
+picture-options='zoom'
 picture-uri='file:///usr/share/backgrounds/uluwatu-inside-blankon-color-orange1.png'
 
 [org.gnome.desktop.default-applications.terminal]
