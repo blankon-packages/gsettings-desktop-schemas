@@ -1,0 +1,32 @@
+Description: <taptoclick patch>
+ Enable taptoclick for touchpad in BlankOn pheriperal.
+ .
+ gsettings-desktop-schemas (3.24.1-1blankon8) uluwatu; urgency=medium
+ .
+   * Enable touchpad taptoclick
+Author: AnTo SamalonA <ansamsoftdev@gmail.com>
+
+---
+The information above should follow the Patch Tagging Guidelines, please
+checkout http://dep.debian.net/deps/dep3/ to learn about the format. Here
+are templates for supplementary fields that you might want to add:
+
+Origin: <vendor|upstream|other>, <url of original patch>
+Bug: <url in upstream bugtracker>
+Bug-Debian: https://bugs.debian.org/<bugnumber>
+Bug-Ubuntu: https://launchpad.net/bugs/<bugnumber>
+Forwarded: <no|not-needed|url proving that it has been forwarded>
+Reviewed-By: <name and email of someone who approved the patch>
+Last-Update: 2017-11-13
+
+--- gsettings-desktop-schemas-3.24.1.orig/schemas/org.gnome.desktop.peripherals.gschema.xml.in
++++ gsettings-desktop-schemas-3.24.1/schemas/org.gnome.desktop.peripherals.gschema.xml.in
+@@ -24,7 +24,7 @@
+       <description>When enabled, touchpads will be disabled while typing on the keyboard.</description>
+     </key>
+     <key name="tap-to-click" type="b">
+-      <default>false</default>
++      <default>true</default>
+       <summary>Enable mouse clicks with touchpad</summary>
+       <description>Set this to TRUE to be able to send mouse clicks by tapping on the touchpad.</description>
+     </key>
