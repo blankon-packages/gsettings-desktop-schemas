@@ -1,3 +1,9 @@
+gsettings-desktop-schemas (3.24.1-1blankon9) uluwatu; urgency=medium
+
+  * blankon-gsetting
+
+ -- AnTo SamalonA <ansamsoftdev@gmail.com>  Sun, 19 Nov 2017 21:27:07 +0800
+
 gsettings-desktop-schemas (3.24.1-1blankon8) uluwatu; urgency=medium
 
   * Enable touchpad taptoclick
