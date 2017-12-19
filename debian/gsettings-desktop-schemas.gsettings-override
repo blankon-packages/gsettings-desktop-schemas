@@ -13,9 +13,6 @@ picture-uri='file:///usr/share/backgrounds/uluwatu-inside-blankon-dark-blue.png'
 [org.gnome.desktop.interface]
 icon-theme='Tebu-Flat'
 
-#[org.gnome.settings-daemon.plugins.cursor]
-#active='false'
-
 [org.gnome.desktop.wm.keybindings]
 switch-applications= ['<Super>Tab']
 switch-applications-backward= ['<Shift><Super>Tab']
