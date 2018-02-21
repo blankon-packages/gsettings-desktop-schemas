@@ -5,9 +5,8 @@
 Source: gsettings-desktop-schemas
 Section: gnome
 Priority: optional
-Maintainer: BlankOn Developers <blankon-dev@googlegroups.com>
-XSBC-Original-Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
-Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>, Sjoerd Simons <sjoerd@debian.org>
+Maintainer: Debian GNOME Maintainers <pkg-gnome-maintainers@lists.alioth.debian.org>
+Uploaders: Emilio Pozuelo Monfort <pochu@debian.org>, Jeremy Bicha <jbicha@debian.org>, Laurent Bigonville <bigon@debian.org>, Michael Biebl <biebl@debian.org>
 Build-depends: debhelper (>= 11),
                gnome-pkg-tools (>= 0.11),
                intltool (>= 0.40.0),
@@ -15,8 +14,8 @@ Build-depends: debhelper (>= 11),
                gobject-introspection (>= 1.31.0),
                libgirepository1.0-dev (>= 1.31.0)
 Standards-Version: 4.1.2
-Vcs-Git: https://anonscm.debian.org/git/pkg-gnome/gsettings-desktop-schemas.git
-Vcs-Browser: https://anonscm.debian.org/git/pkg-gnome/gsettings-desktop-schemas.git
+Vcs-Browser: https://salsa.debian.org/gnome-team/gsettings-desktop-schemas
+Vcs-Git: https://salsa.debian.org/gnome-team/gsettings-desktop-schemas.git
 Homepage: http://www.gnome.org/
 
 Package: gsettings-desktop-schemas

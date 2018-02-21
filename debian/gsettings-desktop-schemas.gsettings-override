@@ -1,18 +1,3 @@
-[org.gnome.desktop.background]
-picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/uluwatu-inside-blankon-color-orange1.png'
-
 [org.gnome.desktop.default-applications.terminal]
 exec='x-terminal-emulator'
 exec-arg='-e'
-
-[org.gnome.desktop.screensaver]
-picture-options='zoom'
-picture-uri='file:///usr/share/backgrounds/uluwatu-inside-blankon-dark-blue.png'
-
-[org.gnome.desktop.interface]
-icon-theme='Tebu-Flat'
-
-[org.gnome.desktop.wm.keybindings]
-switch-applications= ['<Super>Tab']
-switch-applications-backward= ['<Shift><Super>Tab']

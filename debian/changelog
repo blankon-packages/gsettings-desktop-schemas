@@ -1,9 +1,9 @@
-gsettings-desktop-schemas (3.24.1-2blankon1) uluwatu; urgency=medium
+gsettings-desktop-schemas (3.27.90-1) unstable; urgency=medium
 
-  * New upstream release:
-    - add patches for blankon
+  * New upstream release
+  * Update Vcs fields for migration to https://salsa.debian.org/
 
- -- antosamalona <ansamsoftdev@gmail.com>  Tue, 19 Dec 2017 14:29:16 +0800
+ -- Jeremy Bicha <jbicha@debian.org>  Wed, 07 Feb 2018 13:51:23 -0500
 
 gsettings-desktop-schemas (3.24.1-2) unstable; urgency=medium
 
