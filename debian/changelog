@@ -1,3 +1,9 @@
+gsettings-desktop-schemas (3.27.90-1blankon1) uluwatu; urgency=medium
+
+  * New upstream release
+
+ -- antosamalona <ansamsoftdev@gmail.com>  Wed, 21 Feb 2018 21:53:54 +0800
+
 gsettings-desktop-schemas (3.27.90-1) unstable; urgency=medium
 
   * New upstream release
